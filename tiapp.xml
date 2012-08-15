@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">RF6WBYHxRJ9seDy99RAMYH9xIQl9KJHc</property>
+    <property name="acs-oauth-key-production" type="string">W4HyliSvj7RvSW3Q7PEwnt6tXc6jHTRu</property>
+    <property name="acs-api-key-production" type="string">RXIz28hMWHqSuqTcXwEv3x4n5APDDJyt</property>
+    <property name="acs-oauth-secret-development" type="string">HkLkWvNOIOa26F8n0cGlUHedl5sflwdy</property>
+    <property name="acs-oauth-key-development" type="string">uO51lfa9IV5Ues5oVTzswMYAcmORMQg0</property>
+    <property name="acs-api-key-development" type="string">eaBZBssn4MkNU3HHYvhvU2fqrNU8OmOF</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>com.companyname.navigation_concept</id>
+    <name>NavigationConcept</name>
+    <version>1.0</version>
+    <publisher>edgarsj</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by edgarsj</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>2352209a-1474-4df7-abed-8e3bdba3b206</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>
